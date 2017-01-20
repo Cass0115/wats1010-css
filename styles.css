@@ -1,4 +1,4 @@
-/* This is where styles are defined for your page. */
+ /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 body{
   font-family:arial;
@@ -6,21 +6,22 @@ body{
   font-size:large;
 }
 header.page-header{
-  /*background-color:lightpink;*/
   text-align:center;
 }
 .page-header h1{
   margin-bottom:0;
-  padding-top:2em;
+  padding-top:2rem;
+  font-size:3.5rem;
 }
 .page-header p{
   margin-top:0;
+  font-size:0.9rem;
 }
 .page-header small{
   font-size:medium;
 }
 header.page-header img{
-  width:150px;
+  width:225px;
   height:auto;
 }
 aside.more-info{
@@ -33,27 +34,35 @@ ul.info-links{
   float: left;
   padding-left: 5em;
   margin-top: 0;
+  text-decoration:none;
 }
 ul.social-links{
   float: right;
   padding-right: 5em;
   margin-right: 43em;
   margin-top: 0;
+  text-decoration:none;
+}
+ul a{
+  text-decoration:none;
+  color:#4d0000;
 }
 section#content{
-  /*background-color:lightgreen;*/
   text-align:center;
   clear:both;
   margin-top:4em;
-  padding:
-}
-li::first-line{
-  font-size:medium;
 }
 .poem{
   list-style-type:none;
   line-height:1.7;
+  color:#800000;
+  font-size:1.3rem;
+}
+.citation{
+  margin-top: 4rem;
+  text-align: left;
+  margin-left: 3em;
 }
 footer.page-footer{
-  /*background-color:lightcoral;*/
+  margin-left: 3em;
 }
