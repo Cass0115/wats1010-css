@@ -27,6 +27,7 @@ h1, h2{
 aside{
   border:2px solid  black;
   border-radius:25px;
+  margin-top:1.5rem;
 }
 .more-info img{
   width:225px;
@@ -63,24 +64,28 @@ ul a{
 */
 section#content{
   text-align:left;
-  margin-right: 50rem;
-  margin-left: 2rem;
+  margin-right:21.5rem;
+  margin-top:1.5rem;
 }
 .poem{
   list-style-type:none;
   line-height:1.7;
-  color:#800000;
+  color:black;
   font-size:1.3rem;
   border:2px solid black;
   border-radius:25px;
+  padding-top:2.5rem;
 }
 .citation{
-  margin-top: 4rem;
-  text-align: left;
-  margin-left: 3em;
+  padding-left:2.6rem;
 }
 footer.page-footer{
-  margin-left: 3em;
   border:2px solid black;
   border-radius:25px;
+}
+footer ul{
+  padding-left:5rem;
+}
+.page-credits{
+  padding-left:2.6rem;
 }
